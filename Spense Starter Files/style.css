@@ -1,0 +1,466 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+}
+body{
+    margin: auto;
+}
+header{
+    width: 100%;
+    background-color: #F0EEEB;
+}
+.header-p{
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding: 14px 0px;
+}
+.header-p span{
+    color: yellow;
+}
+nav{
+    width: 90%;
+    margin: auto;
+    line-height: 10px;
+    margin-top: 30px;
+}
+.nav-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-half{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo h3{
+    font-weight: 700;
+}
+.features{
+    font-weight: 500;
+    display: flex;
+    text-align: center;
+}
+.login{
+    display: flex;
+    justify-content: right;
+}
+.features a,
+.login a{
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+    text-align: center;
+    padding:  13px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.login a:last-child{
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+}
+.hamburger-menu{
+    display: none;
+}
+.landing-page{
+    width: 100%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.lp-content{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+}
+.lp-content .left{
+    width: 55%;
+}
+.lp-content .left h1{
+    margin-bottom: 15px;
+    width: 55%;
+}
+.lp-content .left p{
+    color: #5A5444;
+    margin-bottom: 15px;
+    width: 89%;
+}
+.lp-content .left ul{
+    list-style: none;
+    margin-left: -40px;
+}
+.lp-content .left ul li{
+    display: flex;
+    font-size: 15px;
+    margin-bottom: 0px;
+    color: #5A5444;
+}
+.lp-content .left ul p{
+    margin-top: 17px;
+    margin-left: 10px;
+}
+.left input{
+    border: 1px solid #A5AFAF;    
+    padding: 15px 18px;
+    border-radius: 3px;
+}
+input::placeholder{
+    text-align: center;
+    color: #A5AFAF;
+}
+.left button{
+    border: none;
+    background-color: black;
+    color: #F0EEEB;
+    padding: 15px 18px;
+    border-radius: 6px;
+    margin-left: 6px;
+}
+.lp-content .right{
+    width: 45%;
+}
+.lp-content .right img{
+    width: 100%;
+}
+/* ESCROW PAGE */
+.escrow-page{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.escrow-content{
+    width: 90%;
+    margin: auto;
+}
+.social-sources{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height:5vh;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.social-sources img{
+    width: 10%;
+    height: 80%;
+}
+.escrow-info{
+    width: 100%;
+    margin: auto;
+    background-color: #F0EEEB;
+    border-radius: 20px;
+}
+.escrow-info-content{
+    width: 90%;
+    margin: auto;
+}
+.blurb-wrapper{
+    width: 50%;
+    position: absolute;
+    margin-top: 50px;
+}
+.blurb-wrapper h2{
+    width: 50%;
+    font-size: 30px;
+}
+
+.blurb-wrapper p,
+.blurb-wrapper a{
+    width: 60%;
+    color: #5A5444;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.blurb-wrapper a{
+    font-weight: 600;
+}
+.image-wrapper{
+    position: relative;
+    width: 100%;
+}
+.image-wrapper img{
+    width: 100%;
+}
+.editor-page{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.editor-content{
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+.editor-image{
+    width: 60%;
+}
+.editor-image img{
+    width: 100%;
+}
+.editor-blurb{
+    width: 50%;
+    margin-top: 70px;
+}
+.editor-blurb h2{
+    font-size: 25px;
+}
+.editor-blurb p,
+.editor-blurb a{
+    color: #5A5444;
+    width: 70%;
+    font-size: 15px;
+}
+.editor-blurb a{
+    font-weight: 600;
+}
+footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.footer-footsy{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.spense{
+    width: 28%;
+}
+.spense p{
+    color: #9E9E9E;
+}
+.footer-lists{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+.footer-half1{
+    display: flex;
+    justify-content: space-between;
+    width: 42%;
+}
+.footer-half2{
+    display: flex;
+    justify-content: space-between;
+    width: 42%;
+}
+.footer-lists a{
+    color: #9E9E9E;
+    text-decoration: none;
+}
+.resources a,
+.company a{
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* @media only screen and (min-width: 650px) and (max-width: 1000px) {
+
+} */
+@media(max-width: 650px){
+    .header-p p{
+        width: 95%;
+        margin: auto;
+    } 
+    .features,
+    .login{
+        display: none;
+    }
+    .hamburger-menu{
+        display: block;
+        margin-top: 10px;
+    }
+    .lp-content{
+        flex-direction: column;
+    }
+    .lp-content .left{
+        order: 2;
+        width: 100%;
+        margin: auto;
+    }
+    .lp-content .left h1{
+        width: 90%;
+    }
+    .lp-content .right{
+        width: 100%;
+        order: 1;
+    }
+    .social-sources{
+        overflow: hidden;
+    }
+    .social-sources img{
+        width: 31%;
+        margin-right: 10px;
+        height: 30px;
+    }
+    .escrow-info-content{
+        overflow: hidden;
+    }
+    .blurb-wrapper{
+        width: 100%;
+        margin-top: 30px;
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .blurb-wrapper h2{
+        width: 60%;
+    }
+    .blurb-wrapper p{
+        width: 75%;
+        font-size: 17px;
+    }
+    .image-wrapper{
+        overflow: hidden;
+        width: 100%;
+        position: relative;
+    }
+    .image-wrapper img{
+        width: 210%;
+        margin-left: -360px;
+    }
+    .editor-content{
+        flex-direction: column;
+    }
+    .editor-image{
+        width: 100%;
+        order: 2;
+    }
+    .editor-blurb{
+        width: 100%;
+        order: 1;
+        margin-bottom: 20px;
+    }
+    .editor-blurb h2{
+        width: 80%;
+    }
+    .editor-blurb p{
+        width: 100%;
+        font-size: 17px;
+    }
+    .footer-footsy,
+    .footer-lists{
+        flex-direction: column;
+        width: 95%;
+        margin: auto;
+    }
+    .spense,
+    .footer-half1,
+    .footer-half2{
+        width: 100%;
+    }
+}
+@media (min-width: 650px) and (max-width: 1100px){
+    .header-p p{
+        width: 90%;
+        margin: auto;
+    }
+    .nav-half{
+        width: 70%;
+    }
+    .lp-content{
+        flex-direction: column;
+    }
+    .lp-content .left{
+        order: 2;
+        width: 100%;
+        margin: auto;
+    }
+    .lp-content .left h1{
+        width: 60%;
+    }
+    .lp-content .right{
+        width: 100%;
+        order: 1;
+        height: 100%;
+    }
+    .lp-content .right img{
+        height: 50%;
+    }
+    .social-sources{
+        overflow: hidden;
+    }
+    .social-sources img{
+        width: 30%;
+        margin-right: 10px;
+        height: 30px;
+    }
+    .escrow-info-content{
+        overflow: hidden;
+    }
+    .blurb-wrapper{
+        width: 100%;
+        margin-top: 30px;
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .blurb-wrapper h2{
+        width: 50%;
+    }
+    .blurb-wrapper p{
+        width: 75%;
+        font-size: 17px;
+    }
+    .image-wrapper{
+        overflow: hidden;
+        width: 100%;
+        position: relative;
+    }
+    .image-wrapper img{
+        width: 210%;
+        margin-left: -720px;
+    }
+    .editor-content{
+        flex-direction: column;
+    }
+    .editor-image{
+        width: 100%;
+        order: 2;
+    }
+    .editor-blurb{
+        width: 100%;
+        order: 1;
+        margin-bottom: 20px;
+    }
+    .editor-blurb h2{
+        width: 80%;
+        font-size: 30px;
+    }
+    .editor-blurb p{
+        width: 100%;
+        font-size: 17px;
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-lists{
+        display: block;
+    }
+    .spense{
+        width: 40%;
+    }
+    .footer-half1{
+        width: 50%;
+        margin-left: 100px;
+    }
+    .footer-half2{
+        margin-top: 30px;
+        margin-left: -310px;
+        width: 50%;
+    }
+}
